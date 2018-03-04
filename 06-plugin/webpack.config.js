@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
   entry: './main.js',
   output: {
@@ -10,5 +12,8 @@ module.exports = {
         use: ['style-loader', 'css-loader?minimize'],
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.BannerPlugin('版权所有，翻版必究')
+  ],
 }

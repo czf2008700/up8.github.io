@@ -1,3 +1,4 @@
+/*! 版权所有，翻版必究 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -698,7 +699,7 @@ module.exports = function (css) {
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = '这里是模块'
+module.exports = '这里是模块www'
 
 /***/ })
 /******/ ]);
